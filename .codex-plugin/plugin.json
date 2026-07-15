@@ -1,0 +1,48 @@
+{
+  "name": "mufal",
+  "version": "1.1.0+codex.20260714071507",
+  "description": "Give Codex dated project context from Mufal meetings, transcripts, decisions, and actions.",
+  "author": {
+    "name": "Fomox Inc.",
+    "email": "support@mufal.com",
+    "url": "https://mufal.com"
+  },
+  "homepage": "https://mufal.com/mufal-for-codex",
+  "repository": "https://github.com/Fomox-com/mufal-meetings-codex",
+  "license": "Proprietary",
+  "keywords": [
+    "meetings",
+    "transcripts",
+    "notes",
+    "projects",
+    "context",
+    "mufal"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mufal Meetings",
+    "shortDescription": "Bring Mufal meeting and project context into Codex",
+    "longDescription": "Connect Mufal to give Codex a dated, traceable view of every project: goals, durable memory, linked meetings, decisions, action items, speakers, transcripts, and saved meeting chats.",
+    "developerName": "Fomox Inc.",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://mufal.com/mufal-for-codex",
+    "privacyPolicyURL": "https://mufal.com/privacy-policy",
+    "termsOfServiceURL": "https://mufal.com/terms-of-service",
+    "defaultPrompt": [
+      "Summarize my latest Mufal meetings and list the open actions.",
+      "Give me the current status of my Mufal project with dated evidence and open actions.",
+      "Build a chronological timeline of decisions across this project's meetings.",
+      "Search my Mufal project for requirements that affect this codebase."
+    ],
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/mufal-symbol.svg",
+    "logo": "./assets/mufal-symbol.svg",
+    "logoDark": "./assets/mufal-symbol-white.svg",
+    "screenshots": []
+  },
+  "mcpServers": "./.mcp.json"
+}
