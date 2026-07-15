@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "mufal": {
+      "type": "http",
+      "url": "https://admin.mufal.com/api/mcp",
+      "note": "Connects to the user's Mufal account with OAuth. Read-only access to cloud-synced meetings, transcripts, chat history, project goals, and project memory."
+    }
+  }
+}
